@@ -1,4 +1,4 @@
-80000400,entrypoint
+00001000,entrypoint
 80000460,cleararena
 80000498,bootproc
 800005A0,Main_ThreadEntry
@@ -163,6 +163,7 @@
 800092E0,__osGetHWIntrRoutine
 80009310,__osSetWatchLo
 80009320,rspbootTextStart
+800093F0,rspbootTextEnd
 8001CE60,EnAObj_SetupAction
 8001CE68,EnAObj_Init
 8001D1A8,EnAObj_Destroy
@@ -3309,8 +3310,11 @@
 80111070,Regs_InitDataImpl
 80112098,Regs_InitData
 801120C0,aspMainTextStart
+80113070,aspMainTextEnd
 80113070,gspS2DEX2d_fifoTextStart
 80114930,njpgdspMainTextStart
+80114930,gspS2DEX2d_fifoTextEnd
+80115420,njpgdspMainTextEnd
 80800000,ConsoleLogo_PrintBuildInfo
 80800128,ConsoleLogo_Calc
 80800134,ConsoleLogo_SetupView

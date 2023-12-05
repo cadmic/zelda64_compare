@@ -33,6 +33,7 @@ FILE_TABLE_OFFSET = {
         "CJC":        0x07170, # Zelda collection
         "IQS":        0x0B7A0,
         "IQT":        0x0B240,
+        "TEST":       0x12E70,
     },
 
     "MM": {
@@ -81,6 +82,7 @@ FILE_NAMES: dict[str, dict[str, list[str] | None]] = {
         "CJC":        None, # Zelda collector's edition
         "IQS":        None,
         "IQT":        None,
+        "TEST":       None,
         # "GATEWAY":    None, # fake
     },
 
@@ -129,6 +131,8 @@ def readFilelists():
     FILE_NAMES["OOT"]["NP0"]  = readFile("oot/filelists/filelist_pal_1.0.txt")
     FILE_NAMES["OOT"]["CJC"]  = readFile("oot/filelists/filelist_jp_gc_ce.txt")
     FILE_NAMES["OOT"]["IQS"]  = readFile("oot/filelists/filelist_ique_cn.txt")
+
+    FILE_NAMES["OOT"]["TEST"] = readFile("oot/filelists/filelist_test.txt")
 
     FILE_NAMES["OOT"]["CJM"] = FILE_NAMES["OOT"]["CEM"]
 

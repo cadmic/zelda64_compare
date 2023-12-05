@@ -396,8 +396,12 @@ F67F0,801076F0,cosf
 F6840,80107740,libm_vals
 F6850,80107750,xldtob
 F68B0,801077B0,llcvt
-F68C0,801077C0,z_message_PAL.data
-FF350,80110250,z_message_PAL.rodata
+
+offset,vram,.data
+F68C0,801077C0,z_message_PAL
+
+offset,vram,.rodata
+FF350,80110250,z_message_PAL
 FF510,80110410,z_game_over
 FF570,80110470,audio_tables.rodata
 100110,80111010,rsp.rodata

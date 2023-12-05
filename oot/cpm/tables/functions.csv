@@ -55,6 +55,7 @@
 80002364,__ll_rshift
 80002390,__osExceptionPreamble
 800023A0,__osException
+800028EC,send_mesg
 800029D4,__osEnqueueAndYield
 80002AD4,__osEnqueueThread
 80002B1C,__osPopThread
@@ -129,6 +130,7 @@
 80005F80,__osGetHWIntrRoutine
 80005FB0,__osSetWatchLo
 80005FC0,rspbootTextStart
+80006090,rspbootTextEnd
 80010F00,EnAObj_SetupAction
 80010F0C,EnAObj_Init
 8001124C,EnAObj_Destroy

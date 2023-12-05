@@ -6,7 +6,6 @@ offset,vram,.text
 16D0,80001B30,yaz0
 1A00,80001E60,z_locale
 1B90,80001FF0,assert
-1C10,80002070,[PADDING]
 1C20,80002080,is_debug
 1F70,800023D0,driverominit
 2150,800025B0,mio0
@@ -31,7 +30,6 @@ offset,vram,.text
 4260,800046C0,writebackdcache
 42E0,80004740,vigetnextframebuf
 4320,80004780,pimgr
-4490,800048F0,[PADDING]
 44A0,80004900,devmgr
 48B0,80004D10,pirawdma
 4980,80004DE0,virtualtophysical
@@ -83,7 +81,6 @@ offset,vram,.text
 7B40,80007FA0,ldiv
 7CD0,80008130,xldtob
 87E0,80008C40,sirawwrite
-8830,80008C90,[PADDING]
 8840,80008CA0,vimgr
 8B50,80008FB0,vigetcurrcontext
 8B60,80008FC0,startthread
@@ -93,11 +90,12 @@ offset,vram,.text
 8E80,800092E0,gethwintrroutine
 8EB0,80009310,setwatchlo
 8EC0,80009320,rsp_boot.text
-8F90,800093F0,file_008F90
 
 offset,vram,.data
-8FB0,80009410,idle
-8FF0,80009450,file_008FF0
+8F90,800093F0,unk_800093F0.data
+8FB0,80009410,unk_80009410.data
+8FD0,80009430,idle
+8FF0,80009450,viconfig
 9000,80009460,z_std_dma
 A800,8000AC60,z_locale
 A810,8000AC70,driverominit
